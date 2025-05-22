@@ -18,7 +18,7 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
-      - name: 23f3000880@ds.study.iitm.ac.in - Fetch ISS location data
+      - name: 23f3002689@ds.study.iitm.ac.in - Fetch ISS location data
         run: |
           uv run --with requests python << 'EOF'
           import requests
